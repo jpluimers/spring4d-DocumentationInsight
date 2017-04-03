@@ -4,12 +4,12 @@
   <Summary/>
   <Author>Spring4D Team</Author>
   <Email/>
-  <Copyright>Copyright (c) 2009-2016 Spring4D Team</Copyright>
+  <Copyright>Copyright (c) 2009-2017 Spring4D Team</Copyright>
   <Comment>www.spring4d.org</Comment>
   <Language>1033</Language>
   <Charset>1</Charset>
   <HeaderHtml>&lt;%TopicTitle%&gt;</HeaderHtml>
-  <FooterHtml>branch master 20161202 - Copyright (c) 2009-2016 Spring4D Team &lt;a href="http://www.spring4d.org" target="_blank"&gt;www.spring4d.org&lt;/a&gt;. 
+  <FooterHtml>branch master 20170402 - Copyright (c) 2009-2017 Spring4D Team &lt;a href="http://www.spring4d.org" target="_blank"&gt;www.spring4d.org&lt;/a&gt;. 
 Powered by &lt;a href="http://www.devjetsoftware.com/products/documentation-insight/" target="_blank"&gt;Documentation Insight&lt;/a&gt;</FooterHtml>
   <CustomDefines/>
   <ShowImplementationSection>true</ShowImplementationSection>
@@ -22,7 +22,8 @@ Powered by &lt;a href="http://www.devjetsoftware.com/products/documentation-insi
   <Sources>
     <Source>.\Spring4D\Packages\DelphiXE7\Spring.Base.dpk</Source>
     <Source>.\Spring4D\Packages\DelphiXE7\Spring.Core.dpk</Source>
-    <Source>.\Spring4D\Packages\DelphiXE7\Spring.Designtime.dpk</Source>
+    <Source>.\Spring4D\Packages\DelphiXE7\Spring.Data.Designtime.dpk</Source>
+    <Source>.\Spring4D\Packages\DelphiXE7\Spring.Data.dpk</Source>
     <Source>.\Spring4D\Packages\DelphiXE7\Spring.Extensions.dpk</Source>
     <Source>.\Spring4D\Packages\DelphiXE7\Spring.Persistence.dpk</Source>
     <Source>.\Spring4D\Samples\AdvancedDependencyInjection\DynamicAbstractFactory\DynamicAbstractFactory.dpr</Source>
@@ -50,6 +51,7 @@ Powered by &lt;a href="http://www.devjetsoftware.com/products/documentation-insi
     <Source>.\Spring4D\Samples\SpringDemos\Demo.Patterns\Factory\Demo.Spring.FactoryPattern.dpr</Source>
     <Source>.\Spring4D\Samples\SpringDemos\Demo.Patterns\Observer\Demo.Spring.ObserverPattern.dpr</Source>
     <Source>.\Spring4D\Marshmallow\Demos\GettingStarted\GettingStarted.dpr</Source>
+    <Source>.\Spring4D\Marshmallow\External\CodeGenerator\Source\CodeGenerator.dpr</Source>
     <Source>.\Spring4D\Marshmallow\Test\ORMTests.dpr</Source>
     <Source>.\Spring4D\Build\Build.dpr</Source>
     <Source>.\Spring4D\Tests\Spring.Tests.dpr</Source>
@@ -60,21 +62,21 @@ Powered by &lt;a href="http://www.devjetsoftware.com/products/documentation-insi
   <Outputs>
     <Output Type="HTML">
       <Active>true</Active>
-      <OutputDirectory>output\master.20161202\Doc\Html</OutputDirectory>
+      <OutputDirectory>output\master.20170402\Doc\Html</OutputDirectory>
     </Output>
     <Output Type="CHM">
       <Active>true</Active>
-      <OutputFileName>output\master.20161202\Doc\CHM\Spring4D.chm</OutputFileName>
+      <OutputFileName>output\master.20170402\Doc\CHM\Spring4D.chm</OutputFileName>
     </Output>
     <Output Type="MSHELP2">
       <Active>false</Active>
-      <OutputFileName>output\master.20161202\Doc\MSHelp2\Spring4D.HxS</OutputFileName>
+      <OutputFileName>output\master.20170402\Doc\MSHelp2\Spring4D.HxS</OutputFileName>
       <Namespace>Spring4D</Namespace>
       <TitleID>library</TitleID>
     </Output>
     <Output Type="HelpAndManual">
       <Active>true</Active>
-      <OutputFileName>output\master.20161202\Doc\HM\Spring4D.hmxp</OutputFileName>
+      <OutputFileName>output\master.20170402\Doc\HM\Spring4D.hmxp</OutputFileName>
     </Output>
   </Outputs>
 </Project>
